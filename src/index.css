@@ -20,3 +20,24 @@ a{
 ul{
   list-style-type: none;
 }
+
+.btn{
+  display: inline-block;
+  padding: 0.8rem 2.5rem;
+  border: 1px solid #fff;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+  background-color: yellow;
+  color: black;
+}
+
+.btn-light{
+  background-color: transparent;
+  color:white;
+}
+
+.btn:hover{
+  transform: scale(1.2) rotate(10deg);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
